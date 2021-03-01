@@ -9,6 +9,6 @@ package basic;
  *字节值 1      2       4     8   4       8       2       1
  *装箱   Byte   Short  Interger Long  Float Double  Character  Boolean
  */
-public class dataSource {
+public class DataSource {
     public  Integer num = 1;
 }
