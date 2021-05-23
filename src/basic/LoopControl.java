@@ -198,7 +198,7 @@ public class LoopControl {
          */
 
         int j = 5;
-        while (j<=5){
+        while (j <= 5) {
             System.out.println("he");
             j++;
         }
@@ -211,7 +211,7 @@ public class LoopControl {
         int zf = 8844430;
         //因为要反复折叠，所以要使用循环，但是不知道折叠多少次，这种情况下更适合使用while循环
         //折叠的过程中当纸张厚度大于珠峰就停止了，因此继续执行的要求是纸张厚度小于珠峰高度
-        while(paper <= zf) {
+        while (paper <= zf) {
             //循环的执行过程中每次纸张折叠，纸张的厚度要加倍
             paper *= 2;
             //在循环中执行累加，对应折叠了多少次
@@ -260,6 +260,7 @@ public class LoopControl {
          * while(true){}
          * do {} while(true);
          */
+
 
     }
 }
