@@ -7,10 +7,12 @@ import java.util.Scanner;
  */
 public class ScannerTest {
     public static void main(String[] args) {
-        System.out.println("请键盘输入数字:");
+        System.out.println("请键盘输入你的名字:");
         Scanner scanner = new Scanner(System.in);
-        int i = scanner.nextInt();
-        System.out.println(i);
+        String name = scanner.nextLine();
+        System.out.println("请输入你的年纪");
+        int age = scanner.nextInt();
+        System.out.println("名字："+name +",年龄："+age);
 
     }
 }
